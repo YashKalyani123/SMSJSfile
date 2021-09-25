@@ -1,0 +1,26 @@
+	SMS table Schema						
++---------+-------------+------+-----+---------+-------+							
+| Field   | Type        | Null | Key | Default | Extra |							
++---------+-------------+------+-----+---------+-------+							
+| fname   | varchar(30) | YES  |     | NULL    |       |							
+| lname   | varchar(30) | YES  |     | NULL    |       |							
+| grade   | varchar(30) | YES  |     | NULL    |       |							
+| dob     | date        | YES  |     | NULL    |       |							
+| gender  | varchar(10) | YES  |     | NULL    |       |							
+| email   | varchar(30) | YES  |     | NULL    |       |							
+| MobNo   | varchar(10) | YES  |     | NULL    |       |							
+| Address | text        | YES  |     | NULL    |       |							
++---------+-------------+------+-----+---------+-------+							
+							
+							
+					SMS TABLE DATA		
+	+-----------+-----------+-------+------------+--------+------------------------------+------------+-----------------------------------------------------+						
+	| fname     | lname     | grade | dob        | gender | email                        | MobNo      | Address                                             |						
+	+-----------+-----------+-------+------------+--------+------------------------------+------------+-----------------------------------------------------+						
+	"| Shubham   | Gaikwad   | B+    | 1999-05-23 | Male   | shubhamGaikwad44@gmail.com   | 6556742319 | Shree vallabh Society,Bhawani peth pune-42          |"						
+	"| Yash      | Kalyani   | A+    | 2000-08-09 | Male   | yashkalyani720@gmail.com     | 8308820908 | Laxmi Sahakari Gruharachana, shukrawar peth pune-02 |"						
+	"| Yash      | thatte    | C+    | 2000-03-21 | Male   | yashtahtte20@gmail.com       | 8453216789 | Navaratna complex , karve road ,pune-04             |"						
+	"| Saurabh   | Sanas     | A     | 2000-09-23 | Male   | saurabhSanas007@gmail.com    | 2314567891 | Ajinkyatara, Sanas Wadi,Hadpsar                     |"						
+	"| Mithilesh | Choudhari | A+    | 2000-09-25 | Male   | MithileshChoudhari@gmail.com | 7299456845 | Mitra Society,Dhyari Maruti mandir,singhgad road    |"						
+	"| Atish     | Desai     | A+    | 2000-06-02 | Male   | AtishDesai134@gmail.com      | 1354678912 | Forest trail,Bhugoan                                |"						
+	+-----------+-----------+-------+------------+--------+------------------------------+------------+-----------------------------------------------------+						
